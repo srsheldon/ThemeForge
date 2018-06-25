@@ -1,0 +1,41 @@
+{
+  "name": "themeforge",
+  "version": "0.0.0",
+  "description": "A UI and CLI tool for creating themes in a consitant and maintainable way",
+  "main": "index.js",
+  "browser": "",
+  "bin": {
+    "ThemeForgeCLI": "./bin/ThemeForgeCLI"
+  },
+  "directories": {
+    "bin": "./bin",
+    "man": "./man",
+    "doc": "./doc",
+    "example": "./example",
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srsheldon/ThemeForge.git"
+  },
+  "keywords": [
+    "theme"
+  ],
+  "author": {
+    "name": "Samuel R. Sheldon"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srsheldon/ThemeForge/issues"
+  },
+  "homepage": "https://github.com/srsheldon/ThemeForge#readme",
+  "config": {
+    "port": "3000"
+  },
+  "publishConfig": {
+    "port": "4000"
+  }
+}
